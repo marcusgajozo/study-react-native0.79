@@ -5,7 +5,10 @@
     "paths": {
       "@/*": [
         "./*"
-      ]
+      ],
+      "@images/*": [
+        "./assets/images/*"
+      ],
     }
   },
   "include": [
