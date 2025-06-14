@@ -5,6 +5,7 @@
   "scripts": {
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",
+    "start:wsl": "REACT_NATIVE_PACKAGER_HOSTNAME=$(node scripts/get_network_local_ip.js) expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
